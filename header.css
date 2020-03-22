@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Reset CSS*/
+body{
+	background-color:azure
+}
+#logo{
+	 margin-left: 1%;
+	
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Avenir, sans-serif;
+	word-spacing: 10px;
+	letter-spacing: 1px;
+}
+
+nav{
+    width: 100%;
+	  margin-left: 7%;
+    background-color:transparent;
+    position: sticky;
+    margin-top: -30px;
+	  font-size:22px;
+	  display: fixed;
+
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 13%;
+    text-align: center;
+    position: relative;
+	  border-right:2px solid #bbb;
+
+
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display:none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color:cornflowerblue ;
+    position: absolute;
+    width:110%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+
+	
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+
+
+
+.profil{
+	margin-right: 3%;
+	margin-top: 1%
+	
+}
+h4{
+	color: red;
+  
+}
+.titre{
+  margin-top: 400px;
+  font-size: 10px;
+  text-align: center;
+  color: #366799;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+/* Fading animation */
+.fade {
+  webkit-animation-name: fade;
+  webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+

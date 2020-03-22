@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+font-family: arial;
+    min-height: 850px;
+	    display: block;	
+}
+h3{
+    border-bottom: 1px solid #366799;
+    color: #366799;
+    font-size: 17px;
+    margin: 0 0 17px;
+    padding: 0 0 5px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+div{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+#personnel {
+}
+*{
+	word-spacing: 10px;
+    letter-spacing: 1px;
+}
+h4{
+	font-size: 14px;
+	
+	    vertical-align: baseline;
+	    display: inline-block;
+	   border-bottom: 1px solid #366799;
+	   color: rgba(56,8,8,1.00)
+}
+
+ ul.square {
+    padding: 0 0 0 50px;
+}

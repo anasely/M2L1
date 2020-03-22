@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+font-family: arial;
+    min-height: 850px;
+        display: block; 
+}
+h2{
+    border-bottom: 1px solid #366799;
+    color: #366799;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom:0px;
+    padding: 0 0 5px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+*{
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+p{
+    font-size: 17px;
+     vertical-align: baseline;
+      display: inline-block;
+       color: rgba(56,8,8,1.00)
+           line-height: 20px;
+
+
+}
+
